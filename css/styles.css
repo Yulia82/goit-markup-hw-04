@@ -402,7 +402,7 @@ h4 {
 }
 
 .soc-link:hover,
-.soc-link.focus {
+.soc-link:focus {
   background-color: var(--accent);
   color: var(--bg-color-icon);
 }
@@ -421,8 +421,6 @@ h4 {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-right: 215px;
-  padding-left: 215px;
 }
 
 .list-clients {
@@ -548,7 +546,7 @@ h4 {
 }
 
 .list-button .item:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .portfolio-button {
@@ -604,8 +602,12 @@ h4 {
   margin-left: 15px;
 }
 
-.list-img .item:hover,
-.list-img .item:focus {
+.link-portfolio {
+  display: block;
+}
+
+.list-img .link-portfolio:hover,
+.list-img .link-portfolio:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
